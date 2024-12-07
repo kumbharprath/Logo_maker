@@ -162,6 +162,7 @@ docker build -t frontend-app ./frontend
 
 bash
 docker run -d --name frontend-container -p 3000:3000 frontend-app
+
 docker run -d --name backend-container -p 5000:5000 backend-app
 
 ## AWS EC2 (Optional)
